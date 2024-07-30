@@ -50,16 +50,21 @@ These instructions will help you set up the project on your local machine for de
 6. Open your web browser and navigate to http://127.0.0.1:8000/ to use the application.
 
 ## Usage
-1. Open the application in your web browser:
+1. Create an admin:
+   Create admin using 
+   ```bash
+    python manage.py createsuperuser
+
+2. Open the application in your web browser:
    Navigate to http://127.0.0.1:8000/enrollment/register.
 
-2. Enter your credentials:
+3. Enter your credentials:
    Type the details of the studentin the input boxes.
 
-3. Submit the form:
+4. Submit the form:
    Click on Register button. It displays "Student registered successfully".
 
-4. Export the Student details in csv or pdf format:
+5. Export the Student details in csv or pdf format:
    Navigate to http://127.0.0.1:8000/enrollment/export/csv for csv file.
    Navigate to http://127.0.0.1:8000/enrollment/export/pdf for pdf file.
 
